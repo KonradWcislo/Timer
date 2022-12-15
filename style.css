@@ -13,12 +13,13 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container {
 	border-radius: 10px;
-	max-width: 300px;
-	padding: 2rem;
+	max-width: 500px;
+	padding: 3rem;
 	background-color: rgba(0, 0, 0, 0.658);
 	display: flex;
 	flex-direction: column;
@@ -27,10 +28,17 @@ body {
 	color: #fff;
 }
 
+.time {
+	margin: 10px 0;
+}
+
 .btn-container button {
+	border: transparent;
 	border-radius: 5px;
+	padding: 2px 7px;
 }
 
 .btn-container button:hover {
-	background-color: red;
+	background-color: rgba(0, 0, 0, 0.526);
+	color: #fff;
 }
